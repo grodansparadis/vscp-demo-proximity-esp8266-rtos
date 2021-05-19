@@ -1,0 +1,70 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/akhe/development/VSCP/vscp-demo-proximity-esp8266-rtos/include",
+                "/home/akhe/development/VSCP/vscp-demo-proximity-esp8266-rtos/src",
+                "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include",
+                "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/extra_include",
+                "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/driver_lib/include",
+                "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/espressif",
+                "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip",
+                "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip/ipv4",
+                "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip/ipv6",
+                "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/nopoll",
+                "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/spiffs",
+                "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/ssl",
+                "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/json",
+                "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/openssl",
+                "/home/akhe/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/akhe/development/VSCP/vscp-demo-proximity-esp8266-rtos/include",
+                    "/home/akhe/development/VSCP/vscp-demo-proximity-esp8266-rtos/src",
+                    "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include",
+                    "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/extra_include",
+                    "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/driver_lib/include",
+                    "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/espressif",
+                    "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip",
+                    "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip/ipv4",
+                    "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip/ipv6",
+                    "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/nopoll",
+                    "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/spiffs",
+                    "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/ssl",
+                    "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/json",
+                    "/home/akhe/.platformio/packages/framework-esp8266-rtos-sdk/include/openssl",
+                    "/home/akhe/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50101",
+                "ESP8266",
+                "ARDUINO_ARCH_ESP8266",
+                "ARDUINO_ESP8266_ESP12",
+                "F_CPU=80000000L",
+                "__ets__",
+                "ICACHE_FLASH",
+                ""
+            ],
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/akhe/.platformio/packages/toolchain-xtensa@1.40802.0/bin/xtensa-lx106-elf-gcc",
+            "compilerArgs": [
+                "-mlongcalls",
+                "-mtext-section-literals",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
