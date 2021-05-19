@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "vscp-demo-proximity-esp8266-nonos",
+			"path": "../vscp-demo-proximity-esp8266-nonos"
+		}
+	],
+	"settings": {}
+}
